@@ -1,0 +1,6 @@
+Folder "helo" wypakowac w katalogu domowym uzytkownika,
+nastepnie bedac w terminalu (w folderze helo) wykonac komende:
+docker build -t helo .
+gdy komenda sie wykona, wykonac komende:
+docker run -p 80:80 helo
+Nastepnie wejsc w przegladark i wejsc na strone localhost:80
